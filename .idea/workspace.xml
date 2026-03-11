@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="083c17bb-35a0-4145-a1be-823101ff7de0" name="Changes" comment="Project java" />
+    <list default="true" id="083c17bb-35a0-4145-a1be-823101ff7de0" name="Changes" comment="Project java">
+      <change beforePath="$PROJECT_DIR$/src" beforeDir="false" afterPath="$PROJECT_DIR$/src" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +26,7 @@
         <entry key="$PROJECT_DIR$/src" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -91,7 +93,7 @@
       <updated>1772977375464</updated>
       <workItem from="1772977376721" duration="3915000" />
       <workItem from="1773174602807" duration="304000" />
-      <workItem from="1773256770480" duration="3068000" />
+      <workItem from="1773256770480" duration="3367000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto java">
       <option name="closed" value="true" />
