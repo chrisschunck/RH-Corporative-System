@@ -1,7 +1,7 @@
-🌐 Sistema Corporativo de Recursos Humanos
+# 🌐 Sistema Corporativo de Recursos Humanos
 Projeto desenvolvido para a disciplina de Programação Orientada a Objetos em Java com o objetivo de aplicar conceitos fundamentais de classes, objetos e relacionamentos na gestão de colaboradores e recursos dentro de uma organização.
 
-📌 Objetivo
+# 📌 Objetivo
 Gerenciar colaboradores, recursos e alocações em um sistema simples de RH. A aplicação permite:
 - Cadastro de colaboradores com dados básicos
 - Cadastro de recursos corporativos
@@ -9,40 +9,40 @@ Gerenciar colaboradores, recursos e alocações em um sistema simples de RH. A a
 - Devolução de recursos
 - Visualização de registros de colaboradores, recursos e alocações
 
-⚙️ Tecnologias
+# ⚙️ Tecnologias
 - Java 17+
 - IntelliJ IDEA (IDE utilizada)
 - Git/GitHub para versionamento
 
-🧠 Lógica de Negócio
+# 🧠 Lógica de Negócio
 A lógica do sistema é baseada nos seguintes conceitos:
 - Colaborador: possui ID, nome, cargo, salário e data de admissão.
 - Recurso: possui ID, nome, categoria, disponibilidade e valor estimado.
 - Alocação: relaciona colaborador e recurso em uma data específica, com observação opcional.
 - SistemaERS: gerencia listas de colaboradores, recursos e alocações, permitindo operações de cadastro, busca e exibição.
 
-📂 Funcionalidades
+# 📂 Funcionalidades
 - Inserção de colaboradores e recursos via terminal
 - Alocação de recursos com validação de disponibilidade
 - Devolução de recursos ao sistema
 - Busca de colaboradores e recursos por ID
 - Exibição de todos os registros cadastrados
 
-🧩 Estrutura Modular
+# 🧩 Estrutura Modular
 - Main: interface principal via terminal
 - Colaborador: classe que representa o colaborador
 - Recurso: classe que representa o recurso corporativo
 - Alocacao: classe que representa a alocação de recursos
 - SistemaERS: classe que gerencia as listas e operações do sistema
 
-▶️ Execução
+# ▶️ Execução
 Compile e execute a classe Main no terminal ou pela IDE:
 javac Main.java
 java Main
 
 
 
-💡 Exemplo de Uso
+# 💡 Exemplo de Uso
 =======Cadastro do colaborador=======
 Digite o id do colaborador: 1
 Digite o nome do colaborador: Maria Silva
@@ -61,7 +61,7 @@ Digite o valor estimado do recurso: 3500
 Digite a data da alocação: 10/03/2026
 Digite uma observação (opcional): Uso para home office
 
-✅ Alocação criada com sucesso!
+# ✅ Alocação criada com sucesso!
 Colaborador ID: 1
 Recurso ID: 101
 Data: 10/03/2026
@@ -69,7 +69,7 @@ Observação: Uso para home office
 
 
 
-👨‍🏫 Avaliação
+# 👨‍🏫 Avaliação
 Critérios atendidos:
 - Estruturas de decisão e repetição
 - Validação de dados de entrada
@@ -78,8 +78,8 @@ Critérios atendidos:
 - Interface clara no terminal
 - Comentários explicativos
 
-🧾 Autor
+# 🧾 Autor
 Christian Schunck
 
-📎 Licença
+# 📎 Licença
 Este projeto é acadêmico e livre para fins educacionais.
