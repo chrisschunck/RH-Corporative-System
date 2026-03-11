@@ -83,5 +83,3 @@ Christian Schunck
 
 📎 Licença
 Este projeto é acadêmico e livre para fins educacionais.
-
-👉 Esse README já está pronto para você colocar na raiz do projeto (cp1 - java/README.md). Quer que eu te mostre como adicionar e versionar esse arquivo no GitHub com os comandos certos?
