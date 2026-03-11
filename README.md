@@ -79,7 +79,7 @@ Critérios atendidos:
 - Comentários explicativos
 
 # 🧾 Autor
-Christian Schunck
+Christian Schunck de Almeida
 
 # 📎 Licença
 Este projeto é acadêmico e livre para fins educacionais.
