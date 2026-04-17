@@ -46,6 +46,7 @@ public class Recurso {
     }
 }
 
+@Override
 public String toString() {
     return "{" +
         "id =" + id" +
