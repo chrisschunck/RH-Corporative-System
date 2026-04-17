@@ -33,6 +33,7 @@ public class Alocacao {
     }
 }
 
+@Override
 public String toString() {
     return "{" +
         "ID colaborador ='" + colaboradorId + '\'' +
