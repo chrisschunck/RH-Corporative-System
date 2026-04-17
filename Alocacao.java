@@ -32,3 +32,13 @@ public class Alocacao {
         return observacao;
     }
 }
+
+public String toString() {
+    return "{" +
+        "ID colaborador ='" + colaboradorId + '\'' +
+        ", ID recurso ='" + recursoId + '\'' +
+        ", Data ='" + data + '\'' + 
+        ", Obs ='" + observacao + '\'' +
+    "}";
+    
+}
