@@ -32,9 +32,9 @@ public class Colaborador {
 public String toString() {
     return "{" + 
         "id =" + id +
-        ", Nome ='" + nome + "\'' +
-        ", Cargo ='" + cargo + "\'' +
-        ", Salario ='" + salario + "\'' + 
+        ", Nome ='" + nome + '\'' +
+        ", Cargo ='" + cargo + '\'' +
+        ", Salario ='" + salario + '\'' + 
         ", Data de admissão =" + dataDeAdmissao +
     "}";
     
