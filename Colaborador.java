@@ -29,6 +29,7 @@ public class Colaborador {
     }
 }
 
+@Override
 public String toString() {
     return "{" + 
         "id =" + id +
