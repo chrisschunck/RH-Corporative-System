@@ -45,3 +45,12 @@ public class Recurso {
         this.disponivel = disponivel;
     }
 }
+
+public String toString() {
+    return "{
+        "id =" + id" +
+        ", Nome do Recurso =" + nomeDoRecurso +
+        ", Categoria =" + categoria +
+        ", Valor Estimado =" + valorEstimado
+        "
+}
