@@ -84,7 +84,7 @@ public class SistemaERS {
         Recurso r = this.buscarRecurso(recursoId);
         if (c != null && r != null) {
             if (r.isDisponivel()) {
-                Alocacao a = new Alocacao(c.getId(), r.getId(), "08/03;2026", "Alocação pelo sistema");
+                Alocacao a = new Alocacao(c.getId(), r.getId(), "08/03/2026", "Alocação pelo sistema");
                 this.alocacoes.add(a);
                 r.setDisponivel(false);
                 System.out.println("Recurso alocado com sucesso!");
