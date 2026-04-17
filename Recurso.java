@@ -47,10 +47,10 @@ public class Recurso {
 }
 
 public String toString() {
-    return "{
+    return "{" +
         "id =" + id" +
-        ", Nome do Recurso =" + nomeDoRecurso +
-        ", Categoria =" + categoria +
-        ", Valor Estimado =" + valorEstimado
-        "
+        ", Nome do Recurso ='" + nomeDoRecurso + '\'' +
+        ", Categoria ='" + categoria + '\'' +
+        ", Valor Estimado ='" + valorEstimado +
+        "}";
 }
