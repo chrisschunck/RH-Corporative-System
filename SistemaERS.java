@@ -48,33 +48,26 @@ public class SistemaERS {
 
     public void exibirColaboradores() {
         System.out.println("=== Colaboradores ===");
-
         for(Colaborador c : this.colaboradores) {
-            PrintStream var10000 = System.out;
-            int var10001 = c.getId();
-            var10000.println(var10001 + " - " + c.getNome());
+            return c;
+            System.out.println("Colaborador: " + " - " + c.getNome());
         }
-
     }
 
     public void exibirRecursos() {
         System.out.println("=== Recursos ===");
-
-        for(Recurso r : this.recursos) {
-            PrintStream var10000 = System.out;
-            int var10001 = r.getId();
-            var10000.println(var10001 + " - " + r.getNomeDoRecurso() + " (Disponível: " + r.isDisponivel() + ")");
+        for (Recurso r : this.recursos) {
+            return r;
+            System.out.println("Recurso: " + r.getNomeDoRecurso() + "(Disponivel: ) " + r.isDisponivel() + ")");
         }
 
     }
 
-    public void exibirAlocacoes() {
+    public void exibirAlocacoes(int id) {
         System.out.println("=== Alocações ===");
-
-        for(Alocacao a : this.alocacoes) {
-            PrintStream var10000 = System.out;
-            int var10001 = a.getColaboradorId();
-            var10000.println("Colaborador " + var10001 + " -> Recurso " + a.getRecursoId() + " em " + a.getData());
+        for (Alocacao a : this.alocacoes) {
+            return a;
+            System.out.println("Colaborador: " + a.getColaboradodId() + " -> Recurso " + a.getRecursoId() + " em " + a.getData());
         }
 
     }
